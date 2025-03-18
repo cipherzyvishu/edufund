@@ -1,0 +1,134 @@
+console.log(fundraiser);
+fundraiser.isClosed;
+console.log(fundraiser);
+const fundraiser = await EduFund.getFundraiser(0);
+const EduFund = await ethers.getContractAt("EduFund", "0xc47b30FD228BDd99f1B6cABe3abd4fd7Ef65d2fB");
+console.log(fundraiser);
+const fundraiser = await EduFund.getFundraiser(0);
+const EduFund = await ethers.getContractAt("EduFund", "0xdbB50AB17e7Fc9dCD96D45F0401605771C6824cE");
+console.log(fundraiser);
+const fundraiser = await EduFund.getFundraiser(0);
+const EduFund = await ethers.getContractAt("EduFund", "0xdbB50AB17e7Fc9dCD96D45F0401605771C6824cE")
+console.log(fundraiser);
+const fundraiser = await EduFund.getFundraiser(0);
+const EduFund = await ethers.getContractAt("EduFund", "0xdbB50AB17e7Fc9dCD96D45F0401605771C6824cE");
+}
+    console.log("First Fundraiser:", fundraiser);
+    const fundraiser = await eduFund.getFundraiser(0);
+if (count > 0) {
+console.log("Total Fundraisers:", count.toString());
+const count = await eduFund.fundraiserCount();
+const eduFund = await ethers.getContractAt("EduFund", "0xdbB50AB17e7Fc9dCD96D45F0401605771C6824cE");
+const { ethers } = require("hardhat");
+    console.log("First }
+    const fundraiser = await eduFund.getFundraiser(0);
+if (count > 0) {
+// Try fetching the first fundraiser
+console.log("Total Fundraisers:", count.toString());
+const count = await eduFund.fundraiserCount();
+// Check fundraiser count
+const eduFu
+const { ethers } = require("hardhat");
+contract.getFundraiser(0).then(console.log);
+const tx3 = await eduFund.withdrawFunds(0);
+console.log(ethers.formatEther(balance), "ETH");
+const balance = await eduFund.getContractBalance();
+console.log("Donation successful!");
+await tx2.wait(); 
+const tx2 = await eduFund.donate(0, { value: ethers.parseEther("1") });
+console.log
+await tx2.wait(); 
+console.log(fundraiser);
+const fundraiser = await eduFund.getFundraiser(0);
+console.log("Fundraiser created!");
+await tx.wait(); 
+);
+    "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266" // Beneficiary address
+    ethers.parseEther("5"), 
+    "Help John pay for college", 
+    "John Doe's Tuition", 
+const tx = await eduFund.createFundraiser(
+const eduFund = await ethers.getContractAt("EduFund", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+await tx.waitconsole.log("Funds withdrawn successfully!");
+tx = await eduFund.withdrawFunds(0);
+await ty!");
+const tx = await eduFund.withdrawFunds(0);
+console.log("Donation successful!");
+await tx.wait(); 
+const tx = await eduFund.donate(0, { value: ethers.parseEther("1") }); 
+console.log("Fundraiser created!");
+await tx.wait();
+);
+    "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266" // Beneficiary address
+    ethers.parseEther("5"), 
+    "Help John pay for college", 
+    "John Doe's Tuition", 
+const tx = await eduFund.createFundraiser(
+eduFund.target;
+const eduFund = await ethers.getContractAt("EduFund", "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512");
+const EduFund = await ethers.getContractFactory("EduFund");
+);
+    "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266" // Beneficiary address
+    ethers.parseEther("5"), 
+    "Help John pay for college", 
+    "John Doe's Tuition", 
+const tx = await eduFund.createFundraiser(
+eduFund.target;
+);
+  ethers.parseEther("5") // Goal: 5 ETH
+  "Help John pay for college", 
+  "John Doe's Tuition", 
+const tx = await eduFund.createFundraiser(
+eduFund.target;
+const eduFund = await EduFund.attach("0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512");
+const EduFund = await ethers.getContractFactory("EduFund");
+> e
+eduFund.target
+eduFund.targetnpx hardhat console --network localhost
+await tx.wait();
+);
+    "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266" // Beneficiary Address (use your Hardhat account)
+    ethers.parseEther("5"),  // Target: 5 ETH
+    "Help John pay for college", 
+    "John Doe's Tuition", 
+const tx = await eduFund.createFundraiser(
+console.log("EduFund Contract Loaded!");
+const eduFund = await EduFund.attach(contractAddress);
+const EduFund = await ethers.getContractFactory("EduFund");
+const contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+const { ethers } = require("hardhat");
+console.log(fundraiserCount);
+const fundraiserCount = await eduFund.fundraiserCount();
+const fundraiserCount = await eduFund.fundraiserCoconsole.log(fundraiserCount);
+const fundraiser = await eduFund.fundraisers(0);
+);
+  ethers.parseEther("5")  // Goal Amount (No extra wallet address)
+  "Help John pay for college",
+  "John Doe's Tuition",
+  await eduFund.createFundraiser(
+  );
+    "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"  // Student's Wallet Address (Replace with a valid address)
+    ethers.parseEther("5"),  // Funding Goal (5 ETH)
+    "Help John pay for college",  // Description
+    "John Doe's Tuition",  // Campaign Title
+  await eduFund.createFundraiser(
+  );
+    "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"  // Student's Wallet Address (Replace with a valid address)
+    ethers.parseEther("5"),  // Funding Goal (5 ETH)
+    "Help John pay for college",  // Description
+    "John Doe's Tuition",  // Campaign Title
+await eduFund.createCampaign(
+const eduFund = await EduFund.attach("0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"); 
+const EduFund = await ethers.getContractFactory("EduFund");
+(await ethers.provider.getBalance(eduFund.address)).toString();
+const eduFund = await EduFund.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3");
+const EduFund = await ethers.getContractFactory("EduFund");
+console.log("Contract address:", eduFund.target);
+(await ethers.provider.getBalance(eduFund.address)).toString();
+const eduFund = await EduFund.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3");
+const EduFund = await ethers.getContractFactory("EduFund");
+const eduFund = await EduFund.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3");const EduFund = await ethers.getContractFactory("EduFund");
+const eduFund = await EduFund.attach("const EduFund = await ethers.getContractFactory("EduFund");
+const EduFund = await ethers.getContractFactory("EduFund");
+const eduFund = await EduFund.attach("0xYourContractAddress"); // Replace with your actual address
+const EduFund = await ethers.getContractFactory("EduFund");
